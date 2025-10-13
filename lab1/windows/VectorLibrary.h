@@ -8,7 +8,7 @@
 
 #include "NumberLibrary.h"
 
-class Vector {
+class VECTORLIBRARY_API Vector {
 private:
     NumberLibrary::Number x;
     NumberLibrary::Number y;
@@ -34,4 +34,5 @@ extern "C" {
     VECTORLIBRARY_API void* vector_add(void* vector1, void* vector2);
     VECTORLIBRARY_API void* vector_zero();
     VECTORLIBRARY_API void* vector_one_one();
+
 }
